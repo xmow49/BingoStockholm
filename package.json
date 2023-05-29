@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@sidebase/nuxt-auth": "^0.6.0-beta.2",
+    "@types/node": "^18",
+    "nuxt": "^3.5.1",
+    "prisma": "^4.14.1",
+    "sass": "^1.62.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.14.1",
+    "bcrypt": "^5.1.0",
+    "compressorjs": "^1.2.1",
+    "image-blob-reduce": "^4.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "sharp": "^0.32.1",
+    "vue-image-compressor": "^1.0.3"
+  }
+}
